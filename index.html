@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Sudoku</title>
+</head>
+<body>
+    <nav>
+        <img src="./images/logo.png" alt="logo" class = "logo">
+        <h1>SUDOKU</h1>
+        <h5>Beat the Clock. Own the Grid!</h5>
+        
+    </nav>
+    <!-- <div class = "space"></div> -->
+        <table class="grid">
+            <tr id="_0">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_1">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_2">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_3">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_4">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_5">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_6">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_7">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+            <tr id="_8">
+                <td id="__0"></td>
+                <td id="__1"></td>
+                <td id="__2"></td>
+                <td id="__3"></td>
+                <td id="__4"></td>
+                <td id="__5"></td>
+                <td id="__6"></td>
+                <td id="__7"></td>
+                <td id="__8"></td>
+            </tr>
+        
+        </table>
+    <!-- <div id = tab-timer>
+        
+        <div id = "timer">
+            <div class="container">
+                <h4>Stopwatch</h4> 
+                <div id="time">
+                    <span class="digits" id="hour">
+                        00
+                    </span>
+                    <span class="text"> Hr </span>
+                    <span class="digits" id="minute">
+                        00
+                    </span>
+                    <span class="text"> Min </span>
+                    <span class="digits" id="second">
+                        00
+                    </span>
+                    <span class="text"> Sec </span>
+                    <span class="digits" id="count">
+                        00
+                    </span>
+                </div>
+                <div id="buttons">
+                    <button class="btn1" id="start">
+                        Start
+                    </button>
+                    <button class="btn2" id="stop">
+                        Stop
+                    </button>
+                    <button class="btn3" id="reset">
+                        Reset
+                    </button>
+                </div>
+                </div>
+        </div>
+    </div> -->
+
+    <div class="buttons">
+        <button class = "clear-button" onclick="clearGame();">Clear</button>
+        <!-- ADD WARNING -->
+        <button class = "ng-button" onclick= "genNewGame();">New Game</button>
+        <button class = "reset-button" onclick = "reset_score();">Reset Score</button>
+        <button class = "chk-btn" onclick="checkSol();">Check Solution</button>
+        <button class = "hint-btn" onclick="hint();">Hint</button>
+    </div>
+    <p class = "js-solved solved"></p>
+
+    <script src="./script.js">
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* nav{
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+    width:100vw;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav img {
+    background-color: transparent;
+    width:9rem;
+    float: left;
+    margin-top: -0.5rem;;
+}
+nav h1{
+    font-weight: bolder;
+}
+nav h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:0.2rem;
+    margin-left:1rem;
+    display:inline-block;
+    font-style: italic;
+} */
+nav{
+    display:flex;
+    background-color: rgb(150,150,150);
+}
+nav img{
+    background-color: transparent;
+    width: 7rem;
+
+}
+nav h1{
+    padding-top: 1rem;
+}
+nav h5{
+    margin-left:auto;
+    margin-top:2rem;
+}
+table{
+    margin:3rem auto;
+    border-spacing: collapse;
+    display: flex;
+    justify-content: center;
+}
+table td{
+
+    border:2px solid black;
+    width:3.5rem;
+    height:3.5rem;
+    text-align: center;
+} 
+table input {
+    max-width: 3.5rem;
+    border: none;
+    font-size: 100%;
+    text-align: center;
+}
+
+.filled-cell {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+.empty-cell {
+    background-color: transparent;
+}
+.hint-cell {
+    color: green;
+}
+
+.buttons{
+    /* width:40rem; */
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem auto;
+}
+button {
+    margin-right: 1.3rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.clear-button {
+    background-color: black;
+}
+.ng-button {
+    background-color: rgb(200, 194, 19)
+}
+.reset-button {
+    background-color: rgb(180, 40, 40);
+}
+.chk-btn {
+    background-color: rgb(43, 157, 44);
+}
+.hint-btn {
+    background-color: rgb(100, 100, 100);
+    margin-right: 0;
+}
+.solved {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50%;
+    margin-top: ; */
+}
