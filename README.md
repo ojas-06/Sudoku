@@ -5,4 +5,5 @@
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
-This was made while learning the essentials of frontend development in a course.
+<br />
+<p>This was made while learning the essentials of frontend development in a course.</p>
