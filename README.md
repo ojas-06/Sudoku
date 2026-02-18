@@ -5,5 +5,5 @@
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
-<br />
 <p>This was made while learning the essentials of frontend development in a course.</p>
+<p><a href="https://ojas-06.github.io/Sudoku/">Click here</a> to play!</p>
